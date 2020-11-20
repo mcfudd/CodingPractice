@@ -21,19 +21,10 @@
         </div>
     </nav>
 
-    <header>
-        <nav>
-            <ul>
-                <a href="index.html"><li>Home</li></a>
-                <a href="about.html"><li>About</li></a>
-                <a href="contact.html"><li>Contact</li></a>
-            </ul>
-        </nav>
-    </header>
-
     <h1>Contact Me</h1>
 
 <form name="contact" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="contact" />
     <input type="text" name="name" placeholder="Full Name" required>
     <input type="email" name="email" placeholder="Email" required>
     <input type="tel" name="phone_num" placeholder="(021) 123 123" pattern="d{3}[\ ]d{3}[\ ]d{3}" required>
@@ -41,6 +32,7 @@
     <button type="submit">Submit</button>
 </form>
 
-
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
