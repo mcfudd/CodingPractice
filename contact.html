@@ -9,7 +9,17 @@
 <link rel="stylesheet" href="style.css">
 
 <body>
-    
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center">Contact Me</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact2.html">Contact 2</a></li>
+          </ul>
+        </div>
+    </nav>
 
     <header>
         <nav>
@@ -23,7 +33,7 @@
 
     <h1>Contact Me</h1>
 
-<form>
+<form name="contact" method="POST" data-netlify="true">
     <input type="text" name="name" placeholder="Full Name" required>
     <input type="email" name="email" placeholder="Email" required>
     <input type="tel" name="phone_num" placeholder="(021) 123 123" pattern="d{3}[\ ]d{3}[\ ]d{3}" required>
